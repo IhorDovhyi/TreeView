@@ -1,0 +1,93 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.top-text {
+  font-size: 30px;
+  margin: auto 45px;
+}
+
+ul {
+  list-style: none;
+  cursor: pointer;
+  padding-left: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+ul li {
+  cursor: pointer;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  margin: 2px 0;
+}
+
+ul li button {
+  border-radius: 50%;
+  color: #000;
+  height: 30px;
+  width: 30px;
+  line-height: 1.5;
+  font-size: 15px;
+  text-align: center;
+  margin: auto 5px;
+}
+
+ul li button.show {
+  background-color: #54cdeb;
+}
+
+ul li button.hide {
+  background-color: #dee05e;
+}
+
+ul li button.add {
+  background-color: #1fd308;
+}
+
+ul li button.delete {
+  background-color: #da220a;
+}
+
+ul li button:active {
+  top: 1px;
+}
+
+ul li span {
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.input-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 200px;
+  height: 40px;
+  margin: auto 45px;
+  text-align: center;
+  padding: 5px;
+  border-color: #1fd308;
+}
+
+.input-area__input {
+  border-color: #1fd308;
+}
+
+.input-area__button {
+  background-color: #1fd308;
+}
+/*# sourceMappingURL=styles.css.map */
